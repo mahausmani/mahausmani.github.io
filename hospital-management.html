@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BotGPT Project</title>
+    <title>Hospital management app</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +13,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            overflow-x: hidden;
         }
 
         header {
@@ -30,6 +31,10 @@
             box-sizing: border-box;
         }
 
+        .project {
+            margin-bottom: 40px;
+        }
+
         iframe {
             display: block;
             margin: 20px auto;
@@ -42,15 +47,23 @@
 
 <body>
     <header>
-        <h1>LIP2URDU</h1>
+        <h1>Hospital Management App</h1>
     </header>
     <main>
-        <h2>Project Description</h2>
-        <p>
-        </p>
-        <h2>Project Video</h2>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/HpWg0kOBbqI">
-        </iframe>
+
+
+        <div class="project">
+            <h2>Hospital Management App</h2>
+            <p>
+                This app is built from scratch. All html, css are custom designed. There is role based authentication
+                using Flask. Doctor and patient login shows different dashboards. All Crud operations are implemented.
+                Admin portal is yet to be set up.
+            </p>
+            <p>the website is hosted at https://mahausmani.pythonanywhere.com/, click on view demo to open live demo</p>
+            <button><a href="https://mahausmani.pythonanywhere.com/">View Demo</a></button>
+        </div>
+
+
     </main>
 </body>
 
